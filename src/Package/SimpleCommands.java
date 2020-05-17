@@ -30,4 +30,12 @@ public class SimpleCommands {
     public double Pow(double sum, double n) {
         return pow(sum, n);
     }
+
+    public double Fact(double sum){
+        double res=1;
+        for (int i=2; i<=sum; i++){
+            res*=i;
+        }
+        return res;
+    }
 }
