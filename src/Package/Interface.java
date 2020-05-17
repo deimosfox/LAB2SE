@@ -57,6 +57,9 @@ public class Interface {
                 Calculator.sum = this.scommands.Pow(Calculator.sum, number5);
                 System.out.println(Calculator.sum);
                 break;
+            case "abs":
+                Calculator.sum = this.scommands.Abs(calculator.sum);
+                 System.out.println(Calculator.sum);
             case "end" :
                 System.out.println("The result is" + Calculator.sum);
                 break;
