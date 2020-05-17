@@ -52,6 +52,11 @@ public class Interface {
             case "sqrt":
                 Calculator.sum = this.scommands.Sqrt(calculator.sum);
                 System.out.println(Calculator.sum);
+            case "pow":
+                double number5 = this.scanner.nextDouble();
+                Calculator.sum = this.scommands.Pow(Calculator.sum, number5);
+                System.out.println(Calculator.sum);
+                break;
             case "end" :
                 System.out.println("The result is" + Calculator.sum);
                 break;

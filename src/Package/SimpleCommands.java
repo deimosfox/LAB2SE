@@ -1,5 +1,6 @@
 package Package;
 
+import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
 public class SimpleCommands {
@@ -24,5 +25,9 @@ public class SimpleCommands {
 
     public double Sqrt(double sum) {
         return sqrt(sum);
+    }
+
+    public double Pow(double sum, double n) {
+        return pow(sum, n);
     }
 }
