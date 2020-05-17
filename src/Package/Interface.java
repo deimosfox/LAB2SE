@@ -60,6 +60,9 @@ public class Interface {
             case "f":
                 Calculator.sum = this.scommands.Fact(calculator.sum);
                 System.out.println(Calculator.sum);
+            case "abs":
+                Calculator.sum = this.scommands.Abs(calculator.sum);
+                 System.out.println(Calculator.sum);
             case "end" :
                 System.out.println("The result is" + Calculator.sum);
                 break;
