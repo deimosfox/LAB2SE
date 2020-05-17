@@ -38,7 +38,12 @@ public class SimpleCommands {
         return res;
     }
 
+
     public double Abs(double sum) {
         return abs(sum);
+    }
+
+    public double Log(double sum){
+        return log(sum);
     }
 }
