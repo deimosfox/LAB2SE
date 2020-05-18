@@ -43,7 +43,7 @@ public class SimpleCommands {
         return abs(sum);
     }
 
-    public double Log(double sum){
+    public double Log(double sum) {
         return log(sum);
     }
 }
