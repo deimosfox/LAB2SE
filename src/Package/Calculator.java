@@ -3,7 +3,10 @@
  * @version 1.4
  */
 package Package;
-
+//simple comment
+/*simple
+comment
+ */
 import java.util.Scanner;
 
 public class Calculator {
@@ -28,7 +31,7 @@ public class Calculator {
         Interface menu = new Interface();
         menu.Interface();
     }
-
+    //comment
     static {
         in = new Scanner(System.in);
     }
